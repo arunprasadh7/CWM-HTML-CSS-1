@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Editor or IDE files
+.vscode/
+
+# Temporary or backup files
+*.swp
+*~
+.*.swp
+
+# Cache files and logs
+*.log
+*.cache
+
+# Operating system files
+.DS_Store
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Compiled files
+*.css.map

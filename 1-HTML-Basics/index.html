@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta
+      name="description"
+      content="This is the Complete HTML & CSS mastery course by Mosh Hamedani part 1"
+    />
+    <meta name="robots" content="index, follow" />
+    <title>HTML - Basics</title>
+    <style>
+      img {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      video {
+        width: 400px;
+      }
+
+      ul {
+        list-style-type: square;
+      }
+
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      tfoot {
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>I am a fullstack <em>developer</em></p>
+    <a href="www.google.com" target="_blank">Google</a> <br />
+    <img src="./images/coffee.jpg" alt="a coffee mug on a table" />
+    <br /><br />
+    <video src="./videos/ballons.mp4" autoplay controls loop>
+      Your browser does not support videos
+    </video>
+    <audio src=""></audio>
+
+    <!-- lists  -->
+    <ul>
+      <li>About Me</li>
+      <li>
+        Courses
+        <ul>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+        </ul>
+      </li>
+      <li>Subscribe</li>
+      <li>Contact Me</li>
+    </ul>
+
+    <!-- ordered lists  -->
+    <ol>
+      <li>Preheating the oven.</li>
+      <li>Place ingredients on the crust.</li>
+      <li>Put the pizza in the oven for 20 mins.</li>
+    </ol>
+
+    <!-- description list  -->
+    <dl>
+      <dt>Title</dt>
+      <dd>The Ultimate HTML & CSS course</dd>
+      <dt>Author</dt>
+      <dd>Mosh Hamedani</dd>
+      <dt>Skills</dt>
+      <dd>HTML</dd>
+      <dd>CSS</dd>
+      <dd>Responsive Design</dd>
+      <dd>Search Engine Optimization</dd>
+    </dl>
+    <hr />
+
+    <!-- tables  -->
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
